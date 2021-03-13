@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,300&display=swap');
+body {
+  background-image: url(../images/bg-intro-desktop.png);
+  background-position: center center;
+  background-size: cover;
+  font-family: 'Poppins', sans-serif;
+  background-color: hsl(0, 100%, 74%);
+  font-size: 16px;
+  height: 100vh;
+}
+
+h1 {
+  width: 100%;
+  color: white;
+  font-weight: 800px;
+}
+
+/*btn free*/
+
+#free {
+  border-radius: 5px!important;
+  box-shadow: 0.3px 4.5px rgb(0, 0, 0, 0.2);
+  color: white;
+  background-color: hsl(248, 32%, 49%) !important;
+}
+
+/* img error svg*/
+
+#img-error-first, #img-error-last, #img-error-email, #img-error-password {
+  position: absolute;
+  z-index: 222;
+  display: none;
+}
+
+#img-error-first {
+  z-index: 222;
+  /* display: none; */
+  top: 30px;
+  right: 25px;
+}
+
+#img-error-last {
+  top: 92px;
+  right: 25px;
+}
+
+#img-error-email {
+  top: 154px;
+  right: 25px;
+}
+
+#img-error-password {
+  top: 216px;
+  right: 25px;
+}
+
+#form {
+  position: relative;
+}
+
+span {
+  font-size: 11px;
+  opacity: 0.6;
+}
+
+#errorFirst, #errorLast, #errorEmail, #errorPassword {
+  display: none;
+}
+
+/* div.form */
+
+.form {
+  border-radius: 5px!important;
+  box-shadow: 0.3px 4.5px rgb(0, 0, 0, 0.2);
+}
+
+/* btn submite */
+
+.submite {
+  background-color: hsl(154, 59%, 51%) !important;
+}
+
+#succses {
+  display: none;
+  color: rgba(106, 255, 0, 0.713);
+}
