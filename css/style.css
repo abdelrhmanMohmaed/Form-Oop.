@@ -84,3 +84,17 @@ span {
   display: none;
   color: rgba(106, 255, 0, 0.713);
 }
+
+@media screen and (max-width:800px) {
+  .m-25  {
+    text-align: center;
+    padding-top: 19rem !important;
+   margin-top: 125px !important;
+  }
+}
+
+@media screen and (max-width:992px) {
+  #free{
+    height: 55px !important;
+  }
+}
